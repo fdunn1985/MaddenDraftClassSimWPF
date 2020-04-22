@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaddenDraftClassGeneratorWPF", "MaddenDraftClassGeneratorWPF\MaddenDraftClassGeneratorWPF.csproj", "{338A45C8-0997-4A95-88B7-F1FFB03E0E5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{338A45C8-0997-4A95-88B7-F1FFB03E0E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{338A45C8-0997-4A95-88B7-F1FFB03E0E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{338A45C8-0997-4A95-88B7-F1FFB03E0E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{338A45C8-0997-4A95-88B7-F1FFB03E0E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB52155C-16A9-4C15-BD4E-BFB97D254317}
+	EndGlobalSection
+EndGlobal

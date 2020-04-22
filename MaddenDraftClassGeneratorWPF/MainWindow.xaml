@@ -1,0 +1,72 @@
+﻿<Window x:Class="MaddenDraftClassGeneratorWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MaddenDraftClassGeneratorWPF"
+        mc:Ignorable="d"
+        Title="Madden Draft Class Generator" Height="550" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="500" Margin="10,10,0,0" VerticalAlignment="Top" Width="370">
+            <Button Content="Generate Draft Class"
+                    Click="GenerateDraftClass_Clicked" />
+            <Label Content="Sleepers (%):"
+                   Margin="0 15 0 0" />
+            <TextBox Name="sleepersTxt" 
+                     Margin="0 0 0 0"
+                     Text="10" />
+            <Label Content="Busts (%):"
+                   Margin="0 0 0 0" />
+            <TextBox Name="bustsTxt" 
+                     Margin="0 0 0 15"
+                     Text="10" />
+            <Label Content="1st Rounders (%):"
+                   Margin="0 0 0 0" />
+            <TextBox Name="roundOneTxt" 
+                   Margin="0 0 0 0"
+                     Text="20" />
+            <Label Content="2nd Rounders (%):"
+                   Margin="0 0 0 0" />
+            <TextBox Name="roundTwoTxt" 
+                     Margin="0 0 0 0"
+                     Text="20" />
+            <Label Content="3rd Rounders (%):"
+                   Margin="0 0 0 0" />
+            <TextBox Name="roundThreeTxt" 
+                   Margin="0 0 0 0"
+                     Text="15" />
+            <Label Content="4th Rounders (%):"
+                   Margin="0 0 0 0" />
+            <TextBox Name="roundFourTxt" 
+                     Margin="0 0 0 0"
+                     Text="15" />
+            <Label Content="5th Rounders (%):"
+                   Margin="0 0 0 0" />
+            <TextBox Name="roundFiveTxt" 
+                   Margin="0 0 0 0"
+                     Text="10" />
+            <Label Content="6th Rounders (%):"
+                   Margin="0 0 0 0" />
+            <TextBox Name="roundSixTxt" 
+                   Margin="0 0 0 0"
+                     Text="10" />
+            <Label Content="7th Rounders (%):"
+                   Margin="0 0 0 0" />
+            <TextBox Name="roundSevenTxt" 
+                   Margin="0 0 0 0"
+                     Text="10" />
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Right" Height="500" Margin="0,10,10,0" VerticalAlignment="Top" Width="370" >
+            <Label Content="Generated Players List" />
+            <ListView x:Name="drafteeListView"
+                      Height="470"
+                      Margin="0 5 0 0"
+                      SelectionMode="Single"
+                      MouseDoubleClick="drafteeListView_MouseDoubleClick">
+                
+            </ListView>
+        </StackPanel>
+
+
+    </Grid>
+</Window>
